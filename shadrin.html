@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Практика</title>
+</head>
+<body>
+    <div class="wrap"></div>
+
+    <div class="main">
+        <div class="logo"><a title="На главную" href="/"><img src="./images/small_f4a938fed8.jpg" alt="Логотип"></a></div>
+        <div class="teacher__card">
+            <img src="./images/teacher/shadrin.png" alt="">
+            <div class="teacher__title">
+                <h3> Шадрин Денис Борисович</h3>
+                <div>Лаборант, Старший преподаватель</div>
+                <div><b>Стаж работы</b>: 15 лет</div>
+                <div>
+                    <b>Трудовая деятельность:</b> <br> 
+                    2005 - окончил вуз <br>
+                    2005 - настоящее время, ст. преподаватель кафедры ИСиТ <br>
+                </div>
+                <div><b>Контакты:</b> <br>
+                    ул. Софьи Ковалевской, 5, Т-903 <br>                                  
+                    +7 (343) 3757436 <br>
+                    d.b.shadrin@urfu.ru
+                </div>
+                <div class="rating">
+                    <div class="rating__body">
+                        <div class="rating__active"></div>
+                    </div>
+                    <div class="rating__value">3</div>
+                </div>
+            </div>
+        </div>
+        <div class="teacher__info">
+
+            <b style="margin-bottom: 5px;">Образовательные программы: </b> <br>            
+               - Инженерия программного обеспечения <br>
+               - Программная инженерия <br>
+               - Прикладная информатика <br>
+               - Информатика и вычислительная техника <br>
+
+            <b style="margin-bottom: 5px; margin-top: 20px;">Преподаваемые дисциплины: </b> <br>
+                - Компьютерные сети <br>
+                - Интернет-технологии <br>
+                - Языки и технологии программирования <br>
+                - SEO-оптимизация и продвижение сайтов <br>
+
+            <b style="margin-bottom: 5px; margin-top: 20px;">Информация о повышении квалификации: </b> <br>             
+                <p style="margin-bottom: 5px;">- 2018, Повышение квалификации «Оказание первой помощи», ФГАОУ ВО "Уральский федеральный университет имени первого Президента России Б.Н. Ельцина" (24 ч.)</p>
+                <p style="margin-bottom: 5px;">- 2018, Повышение квалификации «Реализация образовательной программы в условиях развития электронной информационно-образовательной среды ВУЗа», ФГАОУ ВО "Уральский федеральный университет имени первого Президента России Б.Н. Ельцина" (18 ч.) </p>
+                <p style="margin-bottom: 5px;">- 2019, Повышение квалификации «Школа руководителей студенческих проектов», ФГАОУ ВО "Уральский федеральный университет имени первого Президента России Б.Н. Ельцина" (72 ч.) </p>
+                <p style="margin-bottom: 5px;">- 2022, Повышение квалификации «"Принципы и технологии внедрения проектного обучения в высшем образовании"», ФГАОУ ВО "Уральский федеральный университет имени первого Президента России Б.Н. Ельцина" (24 ч.) </p>
+
+            
+        </div>
+        <form action="" class="form">
+            <div class="form__item">
+                <div class="form__label">
+                    <h3>Оставить рейтинг</h3>
+                </div>
+                <div class="rating rating_set">
+                    <div class="rating__body">
+                        <div class="rating__active"></div>
+                        <div class="rating__items">
+                            <input type="radio" class="rating__item" value="1" name="rating">
+                            <input type="radio" class="rating__item" value="2" name="rating">
+                            <input type="radio" class="rating__item" value="3" name="rating">
+                            <input type="radio" class="rating__item" value="4" name="rating">
+                            <input type="radio" class="rating__item" value="5" name="rating">
+                        </div>
+                    </div>
+                    <div class="rating__value">3</div>
+                </div>
+            </div>
+            <button class="submit__rating" type="button">Отправить</button>
+        </form>
+        <form action="" class="comment__form">
+            <div class="form__label">
+                <h3>Оставить отзыв</h3>
+            </div>
+            <input placeholder="Псевдоним" type="text" class="comment__name" required>
+            <textarea  placeholder="Отзыв" type="" class="comment__text" required></textarea>
+            <button class="submit__comment" type="button">Отправить</button>
+        </form>
+        <div class="comments">
+            <div class="form__label">
+                <h3>Отзывы</h3>
+            </div>
+            <div class="comment" id="1">
+                <h4>Глеб</h4>
+                <p>Неплохой преподаватель</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js">
+        
+    </script>
+</body>
+</html>
